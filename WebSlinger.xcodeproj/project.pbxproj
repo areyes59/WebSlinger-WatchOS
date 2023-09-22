@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361A98E422FF572D00B6368A /* SoundPlayingM4A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A98E322FF572D00B6368A /* SoundPlayingM4A.swift */; };
+		361A98EA22FF5E9A00B6368A /* TMGoWeb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 361A98E522FF5E9900B6368A /* TMGoWeb.mp3 */; };
+		361A98EB22FF5E9A00B6368A /* TMFly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 361A98E622FF5E9900B6368A /* TMFly.mp3 */; };
+		361A98EC22FF5E9A00B6368A /* TMGoGoGoWebGo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 361A98E722FF5E9900B6368A /* TMGoGoGoWebGo.mp3 */; };
+		361A98ED22FF5E9A00B6368A /* TMUpUpAndAwayWeb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 361A98E822FF5E9900B6368A /* TMUpUpAndAwayWeb.mp3 */; };
+		361A98EE22FF5E9A00B6368A /* TMShazam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 361A98E922FF5E9900B6368A /* TMShazam.mp3 */; };
+		3632956422FE7E3C00901540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632956322FE7E3C00901540 /* AppDelegate.swift */; };
+		3632956622FE7E3C00901540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632956522FE7E3C00901540 /* ViewController.swift */; };
+		3632956922FE7E3C00901540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3632956722FE7E3C00901540 /* Main.storyboard */; };
+		3632956B22FE7E3D00901540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632956A22FE7E3D00901540 /* Assets.xcassets */; };
+		3632956E22FE7E3D00901540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3632956C22FE7E3D00901540 /* LaunchScreen.storyboard */; };
+		3632957322FE7E3E00901540 /* WebSlinger WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3632957222FE7E3E00901540 /* WebSlinger WatchKit App.app */; };
+		3632957922FE7E3E00901540 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3632957722FE7E3E00901540 /* Interface.storyboard */; };
+		3632957B22FE7E3E00901540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632957A22FE7E3E00901540 /* Assets.xcassets */; };
+		3632958222FE7E3E00901540 /* WebSlinger WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3632958122FE7E3E00901540 /* WebSlinger WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3632958922FE7E3E00901540 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632958822FE7E3E00901540 /* ExtensionDelegate.swift */; };
+		3632958B22FE7E3F00901540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3632958A22FE7E3F00901540 /* Assets.xcassets */; };
+		363295A022FE7FD000901540 /* WebShootShort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3632959F22FE7FD000901540 /* WebShootShort.mp3 */; };
+		363295A122FE889700901540 /* SoundPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632959A22FE7F1700901540 /* SoundPlaying.swift */; };
+		363295A222FE889C00901540 /* WatchShaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632959C22FE7F5600901540 /* WatchShaker.swift */; };
+		363295A422FE8C6400901540 /* spidey_chest_homecoming.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 363295A322FE8C6300901540 /* spidey_chest_homecoming.jpeg */; };
+		363295A622FE8E4800901540 /* spidey_chest_homecoming_main.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 363295A522FE8E4700901540 /* spidey_chest_homecoming_main.jpeg */; };
+		363295A822FE9C0300901540 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632958622FE7E3E00901540 /* InterfaceController.swift */; };
+		363F476D22FFB49A00C3605E /* InterfaceControllerPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363F476C22FFB49A00C3605E /* InterfaceControllerPage2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3632957422FE7E3E00901540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3632955822FE7E3C00901540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3632957122FE7E3E00901540;
+			remoteInfo = "WebSlinger WatchKit App";
+		};
+		3632958322FE7E3E00901540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3632955822FE7E3C00901540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3632958022FE7E3E00901540;
+			remoteInfo = "WebSlinger WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3632959222FE7E3F00901540 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3632958222FE7E3E00901540 /* WebSlinger WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3632959622FE7E3F00901540 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3632957322FE7E3E00901540 /* WebSlinger WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		361A98E322FF572D00B6368A /* SoundPlayingM4A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayingM4A.swift; sourceTree = "<group>"; };
+		361A98E522FF5E9900B6368A /* TMGoWeb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TMGoWeb.mp3; sourceTree = "<group>"; };
+		361A98E622FF5E9900B6368A /* TMFly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TMFly.mp3; sourceTree = "<group>"; };
+		361A98E722FF5E9900B6368A /* TMGoGoGoWebGo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TMGoGoGoWebGo.mp3; sourceTree = "<group>"; };
+		361A98E822FF5E9900B6368A /* TMUpUpAndAwayWeb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TMUpUpAndAwayWeb.mp3; sourceTree = "<group>"; };
+		361A98E922FF5E9900B6368A /* TMShazam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TMShazam.mp3; sourceTree = "<group>"; };
+		3632956022FE7E3C00901540 /* WebSlinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSlinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632956322FE7E3C00901540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3632956522FE7E3C00901540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3632956822FE7E3C00901540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3632956A22FE7E3D00901540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3632956D22FE7E3D00901540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3632956F22FE7E3D00901540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3632957222FE7E3E00901540 /* WebSlinger WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebSlinger WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632957822FE7E3E00901540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3632957A22FE7E3E00901540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3632957C22FE7E3E00901540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3632958122FE7E3E00901540 /* WebSlinger WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WebSlinger WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3632958622FE7E3E00901540 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3632958822FE7E3E00901540 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3632958A22FE7E3F00901540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3632958C22FE7E3F00901540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3632959A22FE7F1700901540 /* SoundPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlaying.swift; sourceTree = "<group>"; };
+		3632959C22FE7F5600901540 /* WatchShaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchShaker.swift; sourceTree = "<group>"; };
+		3632959F22FE7FD000901540 /* WebShootShort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WebShootShort.mp3; sourceTree = "<group>"; };
+		363295A322FE8C6300901540 /* spidey_chest_homecoming.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spidey_chest_homecoming.jpeg; sourceTree = SOURCE_ROOT; };
+		363295A522FE8E4700901540 /* spidey_chest_homecoming_main.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spidey_chest_homecoming_main.jpeg; sourceTree = SOURCE_ROOT; };
+		363F476C22FFB49A00C3605E /* InterfaceControllerPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceControllerPage2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3632955D22FE7E3C00901540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3632957E22FE7E3E00901540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3632955722FE7E3C00901540 = {
+			isa = PBXGroup;
+			children = (
+				3632956222FE7E3C00901540 /* WebSlinger */,
+				3632957622FE7E3E00901540 /* WebSlinger WatchKit App */,
+				3632958522FE7E3E00901540 /* WebSlinger WatchKit Extension */,
+				3632956122FE7E3C00901540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3632956122FE7E3C00901540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3632956022FE7E3C00901540 /* WebSlinger.app */,
+				3632957222FE7E3E00901540 /* WebSlinger WatchKit App.app */,
+				3632958122FE7E3E00901540 /* WebSlinger WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3632956222FE7E3C00901540 /* WebSlinger */ = {
+			isa = PBXGroup;
+			children = (
+				3632956322FE7E3C00901540 /* AppDelegate.swift */,
+				3632956522FE7E3C00901540 /* ViewController.swift */,
+				3632956722FE7E3C00901540 /* Main.storyboard */,
+				3632956A22FE7E3D00901540 /* Assets.xcassets */,
+				3632956C22FE7E3D00901540 /* LaunchScreen.storyboard */,
+				3632956F22FE7E3D00901540 /* Info.plist */,
+				363295A522FE8E4700901540 /* spidey_chest_homecoming_main.jpeg */,
+			);
+			path = WebSlinger;
+			sourceTree = "<group>";
+		};
+		3632957622FE7E3E00901540 /* WebSlinger WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3632957722FE7E3E00901540 /* Interface.storyboard */,
+				3632957A22FE7E3E00901540 /* Assets.xcassets */,
+				3632957C22FE7E3E00901540 /* Info.plist */,
+				363295A322FE8C6300901540 /* spidey_chest_homecoming.jpeg */,
+			);
+			path = "WebSlinger WatchKit App";
+			sourceTree = "<group>";
+		};
+		3632958522FE7E3E00901540 /* WebSlinger WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3632959C22FE7F5600901540 /* WatchShaker.swift */,
+				3632959A22FE7F1700901540 /* SoundPlaying.swift */,
+				361A98E322FF572D00B6368A /* SoundPlayingM4A.swift */,
+				3632958622FE7E3E00901540 /* InterfaceController.swift */,
+				363F476C22FFB49A00C3605E /* InterfaceControllerPage2.swift */,
+				3632958822FE7E3E00901540 /* ExtensionDelegate.swift */,
+				3632958A22FE7E3F00901540 /* Assets.xcassets */,
+				3632958C22FE7E3F00901540 /* Info.plist */,
+				3632959E22FE7FD000901540 /* Audio */,
+			);
+			path = "WebSlinger WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3632959E22FE7FD000901540 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3632959F22FE7FD000901540 /* WebShootShort.mp3 */,
+				361A98E622FF5E9900B6368A /* TMFly.mp3 */,
+				361A98E722FF5E9900B6368A /* TMGoGoGoWebGo.mp3 */,
+				361A98E522FF5E9900B6368A /* TMGoWeb.mp3 */,
+				361A98E922FF5E9900B6368A /* TMShazam.mp3 */,
+				361A98E822FF5E9900B6368A /* TMUpUpAndAwayWeb.mp3 */,
+			);
+			path = Audio;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3632955F22FE7E3C00901540 /* WebSlinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3632959722FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger" */;
+			buildPhases = (
+				3632955C22FE7E3C00901540 /* Sources */,
+				3632955D22FE7E3C00901540 /* Frameworks */,
+				3632955E22FE7E3C00901540 /* Resources */,
+				3632959622FE7E3F00901540 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3632957522FE7E3E00901540 /* PBXTargetDependency */,
+			);
+			name = WebSlinger;
+			productName = WebSlinger;
+			productReference = 3632956022FE7E3C00901540 /* WebSlinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3632957122FE7E3E00901540 /* WebSlinger WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3632959322FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger WatchKit App" */;
+			buildPhases = (
+				3632957022FE7E3E00901540 /* Resources */,
+				3632959222FE7E3F00901540 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3632958422FE7E3E00901540 /* PBXTargetDependency */,
+			);
+			name = "WebSlinger WatchKit App";
+			productName = "WebSlinger WatchKit App";
+			productReference = 3632957222FE7E3E00901540 /* WebSlinger WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3632958022FE7E3E00901540 /* WebSlinger WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3632958F22FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger WatchKit Extension" */;
+			buildPhases = (
+				3632957D22FE7E3E00901540 /* Sources */,
+				3632957E22FE7E3E00901540 /* Frameworks */,
+				3632957F22FE7E3E00901540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebSlinger WatchKit Extension";
+			productName = "WebSlinger WatchKit Extension";
+			productReference = 3632958122FE7E3E00901540 /* WebSlinger WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3632955822FE7E3C00901540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Aaron Reyes";
+				TargetAttributes = {
+					3632955F22FE7E3C00901540 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3632957122FE7E3E00901540 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3632958022FE7E3E00901540 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3632955B22FE7E3C00901540 /* Build configuration list for PBXProject "WebSlinger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3632955722FE7E3C00901540;
+			productRefGroup = 3632956122FE7E3C00901540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3632955F22FE7E3C00901540 /* WebSlinger */,
+				3632957122FE7E3E00901540 /* WebSlinger WatchKit App */,
+				3632958022FE7E3E00901540 /* WebSlinger WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3632955E22FE7E3C00901540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632956E22FE7E3D00901540 /* LaunchScreen.storyboard in Resources */,
+				3632956B22FE7E3D00901540 /* Assets.xcassets in Resources */,
+				363295A622FE8E4800901540 /* spidey_chest_homecoming_main.jpeg in Resources */,
+				3632956922FE7E3C00901540 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3632957022FE7E3E00901540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632957B22FE7E3E00901540 /* Assets.xcassets in Resources */,
+				363295A422FE8C6400901540 /* spidey_chest_homecoming.jpeg in Resources */,
+				3632957922FE7E3E00901540 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3632957F22FE7E3E00901540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361A98ED22FF5E9A00B6368A /* TMUpUpAndAwayWeb.mp3 in Resources */,
+				361A98EA22FF5E9A00B6368A /* TMGoWeb.mp3 in Resources */,
+				363295A022FE7FD000901540 /* WebShootShort.mp3 in Resources */,
+				3632958B22FE7E3F00901540 /* Assets.xcassets in Resources */,
+				361A98EC22FF5E9A00B6368A /* TMGoGoGoWebGo.mp3 in Resources */,
+				361A98EB22FF5E9A00B6368A /* TMFly.mp3 in Resources */,
+				361A98EE22FF5E9A00B6368A /* TMShazam.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3632955C22FE7E3C00901540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632956622FE7E3C00901540 /* ViewController.swift in Sources */,
+				3632956422FE7E3C00901540 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3632957D22FE7E3E00901540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3632958922FE7E3E00901540 /* ExtensionDelegate.swift in Sources */,
+				363295A822FE9C0300901540 /* InterfaceController.swift in Sources */,
+				363295A222FE889C00901540 /* WatchShaker.swift in Sources */,
+				361A98E422FF572D00B6368A /* SoundPlayingM4A.swift in Sources */,
+				363295A122FE889700901540 /* SoundPlaying.swift in Sources */,
+				363F476D22FFB49A00C3605E /* InterfaceControllerPage2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3632957522FE7E3E00901540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3632957122FE7E3E00901540 /* WebSlinger WatchKit App */;
+			targetProxy = 3632957422FE7E3E00901540 /* PBXContainerItemProxy */;
+		};
+		3632958422FE7E3E00901540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3632958022FE7E3E00901540 /* WebSlinger WatchKit Extension */;
+			targetProxy = 3632958322FE7E3E00901540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3632956722FE7E3C00901540 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3632956822FE7E3C00901540 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3632956C22FE7E3D00901540 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3632956D22FE7E3D00901540 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3632957722FE7E3E00901540 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3632957822FE7E3E00901540 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3632958D22FE7E3F00901540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3632958E22FE7E3F00901540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3632959022FE7E3F00901540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				INFOPLIST_FILE = "WebSlinger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		3632959122FE7E3F00901540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				INFOPLIST_FILE = "WebSlinger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		3632959422FE7E3F00901540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				IBSC_MODULE = WebSlinger_WatchKit_Extension;
+				INFOPLIST_FILE = "WebSlinger WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		3632959522FE7E3F00901540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				IBSC_MODULE = WebSlinger_WatchKit_Extension;
+				INFOPLIST_FILE = "WebSlinger WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		3632959822FE7E3F00901540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				INFOPLIST_FILE = WebSlinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3632959922FE7E3F00901540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3DGFG62VMR;
+				INFOPLIST_FILE = WebSlinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Display.WebSlinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3632955B22FE7E3C00901540 /* Build configuration list for PBXProject "WebSlinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632958D22FE7E3F00901540 /* Debug */,
+				3632958E22FE7E3F00901540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3632958F22FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632959022FE7E3F00901540 /* Debug */,
+				3632959122FE7E3F00901540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3632959322FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632959422FE7E3F00901540 /* Debug */,
+				3632959522FE7E3F00901540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3632959722FE7E3F00901540 /* Build configuration list for PBXNativeTarget "WebSlinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3632959822FE7E3F00901540 /* Debug */,
+				3632959922FE7E3F00901540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3632955822FE7E3C00901540 /* Project object */;
+}
